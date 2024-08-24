@@ -11,4 +11,4 @@ export function add(a, b) {
 }
 
 //cjs
-// module.exports = add;
+// module.exports = add
