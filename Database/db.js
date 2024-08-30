@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
+require("dotenv").config();
 
-const url =
-  "mongodb+srv://kumarvansh16aug:oFFHsOfYmWpQShs0@namastenode.eebag.mongodb.net/";
+const url =process.env.URL; 
 
 const client = new MongoClient(url);
 
